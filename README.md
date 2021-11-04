@@ -2,4 +2,4 @@
 
 Codecademy back-end development Mixed Messages portfolio project.
 
-When run, generates a random lyric from The Fall's vast discography.
+When run, generates a new lyric generated from fragments of The Fall's Mark E. Smith.
