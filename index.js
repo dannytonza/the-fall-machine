@@ -29,4 +29,13 @@ const lyrics = [
     "Someone's always on my tracks",
     "Delete iPhone"];
 
-    
+const randomizer = arr => {
+    let start = arr[Math.floor(Math.random() * arr.length)];
+    let end = arr[Math.floor(Math.random() * arr.length)];
+    if (start === end) {
+        end = arr[Math.floor(Math.random() * arr.length)];
+    } else {
+    console.log(`${start} / ${end}`)
+}
+}
+randomizer(lyrics)
